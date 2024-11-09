@@ -11,13 +11,13 @@
                         name="supplier_taxes_id"
                         widget="many2many_tags"
                         context="{'default_type_tax_use':'purchase'}" 
-                        />
+                    />
                     <button
                         name="update_product_taxes"
                         type="object"
                         string="-> Apply to Products"
                         confirm="This will apply to all products in the category" 
-                        />
+                    />
                 </group>
             </group>
         </field>
